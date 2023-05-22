@@ -17,4 +17,4 @@ COPY db.json .
 EXPOSE 3000
 
 # Run the JSON server in watch mode
-CMD ["json-server", "--watch", "db.json", "--port", "3000"]
+CMD ["json-server"]
